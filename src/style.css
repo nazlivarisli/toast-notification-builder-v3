@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+
+  html,
+  body,
+  #app {
+    height: auto;
+    min-height: 100%;
+    overflow: auto;
+  }
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+:root {
+  /* ── Colors ── */
+  --bg-app: #f1f5f9;
+  --bg-panel: #ffffff;
+  --bg-stage: #f8fafc;
+  --bg-preset-item: #f8fafc;
+  --border: #e2e8f0;
+  --border-input: #d1d5db;
+  --text-primary: #0f172a;
+  --text-secondary: #374151;
+  --text-muted: #6b7280;
+  --header-bg: #ffffff;
+
+  /* ── Typography scale ── */
+  --font-size-app-title: 1.125rem;
+  /* App header h1             */
+  --font-size-panel-title: 1rem;
+  /* Panel h2 (Config/Preview) */
+  --font-size-section-title: 0.875rem;
+  /* Sub-section h3            */
+  --font-size-label: 0.875rem;
+  /* Section labels            */
+  --font-size-body: 0.875rem;
+  /* Inputs, buttons, body     */
+  --font-size-small: 0.8125rem;
+  /* Small controls, hex text  */
+  --font-size-caption: 0.75rem;
+  /* Hints, meta, notes        */
+
+  --font-weight-title: 600;
+  --font-weight-label: 500;
+  --font-weight-body: 400;
+}
+
+[data-theme='dark'] {
+  --bg-app: #0f172a;
+  --bg-panel: #1e293b;
+  --bg-stage: #0f172a;
+  --bg-preset-item: #0f172a;
+  --border: #334155;
+  --border-input: #475569;
+  --text-primary: #f1f5f9;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --header-bg: #1e293b;
+}

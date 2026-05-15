@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Toast card background -->
+  <rect x="2" y="7" width="28" height="18" rx="4" fill="#22c55e"/>
+
+  <!-- Success checkmark circle -->
+  <circle cx="9" cy="16" r="4" fill="white" fill-opacity="0.25"/>
+  <polyline points="7,16 8.5,17.5 11,14.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Title line -->
+  <rect x="15" y="12" width="11" height="2" rx="1" fill="white"/>
+
+  <!-- Message line -->
+  <rect x="15" y="16" width="9" height="1.5" rx="0.75" fill="white" fill-opacity="0.7"/>
+
+  <!-- Close X -->
+  <line x1="26" y1="11" x2="24" y2="13" stroke="white" stroke-width="1.2" stroke-linecap="round" fill-opacity="0.7"/>
+  <line x1="24" y1="11" x2="26" y2="13" stroke="white" stroke-width="1.2" stroke-linecap="round" fill-opacity="0.7"/>
+
+  <!-- Progress bar -->
+  <rect x="2" y="23" width="28" height="2" rx="0" fill="transparent"/>
+  <rect x="2" y="23.5" width="18" height="1.5" rx="0.75" fill="white" fill-opacity="0.5"/>
+</svg>
